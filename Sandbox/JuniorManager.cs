@@ -5,12 +5,12 @@ using System.Text;
 
 namespace Sandbox
 {
-    class JuniorManager : Manager
+    public class JuniorManager : Manager
     {
         // Instans fields
         private int workedHours;
 
-        public JuniorManager(string name, int monthlyBaseSalary, int monthlyBonus,) : base(name, monthlyBaseSalary, monthlyBonus)
+        public JuniorManager(string name, int monthlyBaseSalary, int monthlyBonus) : base(name, monthlyBaseSalary, monthlyBonus)
         {
             this.workedHours = 0;
         }

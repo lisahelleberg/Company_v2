@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Sandbox
 {
-    class Manager : Employee
+    public abstract class Manager : Employee
     {
         private int monthlyBaseSalary;
         private int monthlyBonus;
@@ -27,7 +27,9 @@ namespace Sandbox
 
             if (IsBonusPaidOut())
             {
+                Console.Write("Bonus has been added to salary. ");
                 totalSalary = monthlyBaseSalary + monthlyBonus;
+                
             }
             return totalSalary;
         }

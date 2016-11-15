@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Sandbox
 {
-    class Worker : Employee
+    public class Worker : Employee
     {
         public int hourlyPay;
         public int monthlyHours;

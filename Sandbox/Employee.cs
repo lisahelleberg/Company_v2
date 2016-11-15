@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Sandbox
 {
-    abstract class Employee
+    public abstract class Employee
     {
         private String name;
 

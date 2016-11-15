@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Sandbox
 {
-    class SeniorManager : Manager
+    public class SeniorManager : Manager
     {
         private int performanceLevel;
 
